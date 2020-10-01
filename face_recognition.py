@@ -9,9 +9,9 @@ recognizer = cv2.face.createLBPHFaceRecognizer()
 
 # Load the trained mode
 recognizer.load('trainer/trainer.yml')
-
+###################################################################
 # Load prebuilt model for Frontal Face
-cascadePath = "haarcascade_frontalface_default.xml"
+cascadePath = "haarcascade_frontalface_alt2.xml"
 
 # Create classifier from prebuilt model
 faceCascade = cv2.CascadeClassifier(cascadePath);
